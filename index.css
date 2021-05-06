@@ -42,15 +42,16 @@ body {background: #f4f4f4;}
 #checkProfile:checked ~ .Prof{
     top: 61px;
     transition: all .5s;
+    opacity: .8;
 }
 
 .Prof {
-	top: -300%;
+	top: -200%;
 	position: fixed;
     width: 30%;
     height: 100vh;
 	background-color: #FFA0EB;
-	opacity: .8;
+	opacity: .0;
 	padding-top: 30px;
 	border-right: 1px solid	black;
 	z-index: 1;
